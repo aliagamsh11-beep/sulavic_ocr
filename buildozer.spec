@@ -4,17 +4,15 @@ package.name = sulavicocr
 package.domain = org.sulavic
 
 source.dir = .
-source.include_exts = py,png,jpg,jpeg,kv,atlas,tflite,ttf,otf,json,txt
-source.exclude_dirs = tests,bin,.git,.github,__pycache__,build_backup,.buildozer,venv
+source.include_exts = py,png,jpg,jpeg,kv,ttf,otf
+source.exclude_dirs = tests,bin,.git,.github,__pycache__,build_backup,.buildozer,venv,models
 
 version = 1.0.0
 
-requirements = python3,kivy==2.3.0,pillow,numpy,pyjnius
+requirements = python3,kivy==2.3.0
 
 orientation = portrait
 fullscreen = 0
-
-android.permissions = CAMERA,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,READ_MEDIA_IMAGES
 
 android.api = 31
 android.minapi = 24
