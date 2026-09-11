@@ -9,7 +9,7 @@ source.exclude_dirs = tests,bin,.git,.github,__pycache__,build_backup,.buildozer
 
 version = 1.0.0
 
-requirements = python3,kivy==2.3.0,pillow,numpy,camera4kivy,tflite-runtime,pyjnius
+requirements = python3,kivy==2.3.0,pillow,numpy==1.26.4,camera4kivy,tflite-runtime,pyjnius
 
 orientation = portrait
 fullscreen = 0
